@@ -10,6 +10,6 @@
     "start": "node ./src/createEC2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "NAME",
+  "author": "King Lu",
   "license": "ISC"
 }
