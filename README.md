@@ -7,6 +7,7 @@ This script allows you to create one EC2 instance in AWS.
 npm install
 ```
 
+### Config your credentials
 Modify the ./config/config.json.  Put your AWS credentials in the config.
 ```
 {
@@ -16,12 +17,13 @@ Modify the ./config/config.json.  Put your AWS credentials in the config.
 }
 ```
 
+### Run the script
 The script will pick "ami-0e2b2114bf2fac7d8" as a default AMI and "t1.micro" as a default instance type when you run:
 ```
 npm run start
 ```
 
-In your CI server, you may want to designate the AMI and instance type through command argument, e.g.
+In your CI server, you may want to designate the AMI and instance type through command arguments, e.g.
 ```
 ImageId="ami-0e2b2114bf2fac7d8" InstanceType="t1.micro" npm run start
 ```
