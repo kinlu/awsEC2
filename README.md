@@ -16,6 +16,10 @@ Modify the ./config/config.json.  Put your AWS credentials in the config.
   "region": "ap-southeast-2"
 }
 ```
+### Test the EC2 creation
+```
+npm test
+```
 
 ### Run the script
 The script will pick "ami-0e2b2114bf2fac7d8" as a default AMI and "t1.micro" as a default instance type when you run:
