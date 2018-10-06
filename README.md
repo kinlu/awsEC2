@@ -8,7 +8,7 @@ npm install
 ```
 
 ### Config your credentials
-Modify the ./config/config.json.  Put your AWS credentials in the config.
+Modify the ./config/config.json.  Put your AWS credentials in the config.  Or refer to [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-started-nodejs.html#getting-started-nodejs-credentials)
 ```
 {
   "aws_access_key_id": "",
