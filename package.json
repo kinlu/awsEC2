@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "aws-sdk": "^2.328.0"
+    "aws-sdk": "^2.328.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
   },
   "name": "awsec2test",
   "description": "script to create and test EC2 creation",
@@ -8,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node ./src/createEC2.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --timeout 600000"
   },
   "author": "King Lu",
   "license": "ISC"
